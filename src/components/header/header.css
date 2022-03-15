@@ -69,7 +69,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 110vh;
+        height: 160vh;
     }
 }
 
@@ -83,5 +83,14 @@ header {
     .header__socials,
     .scroll__down {
         display: none;
+    }
+}
+
+
+/* ======== MEDIA QUERIES (MEDIUM DEVICES) ========= */
+
+@media screen and (max-width: 400px) {
+    header {
+        height: 115vh;
     }
 }
